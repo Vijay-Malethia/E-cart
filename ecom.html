@@ -1,0 +1,115 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+       <title>E-commerce</title>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <style>
+           .nav{
+                display: flex;
+                background-color: black;
+                height: 7%;
+                align-items: center;
+                overflow: hidden;
+           }
+           .nav a{
+               text-decoration: none;
+               color:white;
+               padding-left: 2%;
+   
+           }
+           .search{
+               color: white;
+               padding-left: 49%;
+               float: right;
+           }
+           body{
+               margin: 0;
+           }
+           .sidebar
+           {
+               background-color: black;
+               width: 170px;
+               height: 100%;
+               overflow: hidden;
+           }
+           .sidebar a{
+               display: block;
+               color: white;
+                text-decoration: none;
+                
+   
+           }
+           .links a{
+               padding-top: 40px;
+               align-items: center;
+               padding-left: 20px;
+           }
+           .links{
+               padding-top: 0px;
+           }
+           .login{
+               padding-top: 220px;
+               align-items: center;
+               padding-left: 19px;
+            
+               
+           }
+           .login a{
+               color: blue;
+           }
+           iframe {
+               
+               width:100%;
+               height: 100%;
+               /* border: none; */
+               /* float: right; */
+           
+           }
+           .frame{
+               display: flex;
+           }
+           .main{
+               display: flex;
+               
+                height: calc(100% - 7%);
+           }
+           .sidebar h5{
+               color: rgba(8, 8, 243, 0.842);
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           }
+           
+       </style>
+    </head>
+    <body>
+        <div class="nav">
+           <i class="fa fa-handshake-o" aria-hidden="true" style="color: rgba(255, 255, 255, 0.856);padding-left: 9px;"></i>  <p style="color: rgb(24, 183, 223);padding-left: 2px";><b>E-cart</b></p>
+              <a href="default.html" target="vs">Home</a>
+              <a href="#">Orders</a>
+              <a href="#">Wishlist</a>
+              <a href="#">About</a>
+              <div class="search">
+              <input type="text" placeholder="search" > <i class="fa fa-search"></i>
+           </div>
+        </div>
+        <div class="main">
+        <div class="sidebar">
+           <h5 style="margin:0;font-size: 25px;padding-left: 2px;padding-top: 30px; backdrop-filter:blur(12px);background-color: rgba(0, 0, 0, 0.623);">CATEGORY</h5>
+           <div class="links">
+            <a href="mobile.html" target="vs">Mobile</a>
+            <a href="laptop.html" target="vs">Laptop</a>
+            <a href="">Wearable</a>
+            <a href="">Accessories</a>
+            <a href="">Electronics</a>
+           </div>
+           <div class="login">
+             <a href="login.html" style="margin:0;font-size: 25px;padding-left: 2px; ">login</a>
+           </div>
+           
+       </div>
+       <iframe src="default.html" frameborder="5"  name="vs"></iframe>
+   </div>
+    </body>
+    </html>
